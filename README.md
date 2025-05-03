@@ -8,7 +8,7 @@ The system uses **Mistral AI** to analyze user financial behavior and recommend 
 
 ---
 
-## 🔧 My Contributions
+## My Contributions
 
 - Developed agent-based architecture for budgeting, savings, investments, and expense tracking.
 - Integrated **Mistral AI** to generate smart financial insights.
@@ -19,7 +19,7 @@ The system uses **Mistral AI** to analyze user financial behavior and recommend 
 
 ---
 
-## 🚀 Sprint Objective Summary
+## Sprint Objective Summary
 
 | Sprint | Objective Summary |
 |--------|--------------------|
@@ -30,26 +30,26 @@ The system uses **Mistral AI** to analyze user financial behavior and recommend 
 
 ---
 
-## 🧩 User Story: PFA1 - Smart Financial Assistant
+##  User Story: PFA1 - Smart Financial Assistant
 
 > As a user, I want an AI-based personal finance assistant that helps me track expenses, suggest budgeting strategies, and provide investment insights, so that I can better manage my finances and achieve my financial goals.
 
 ---
 
-## ✅ Tasks and Status
+##  Tasks and Status
 
 | Task | Status |
 |------|--------|
-| **PFA 1.1:** Expense Tracking System (Mistral Agents, 20 ph) | ✅ Completed |
-| **PFA 1.2:** Smart Budgeting Suggestions (Mistral Agents, 22 ph) | ✅ Completed |
-| **PFA 1.3:** Savings Goal Planning (Mistral Agents, 18 ph) | ✅ Completed |
-| **PFA 1.4:** Investment Insight Engine (Mistral Agents, 20 ph) | ✅ Completed |
-| **PFA 1.5:** Financial Report Generator (Mistral Agents, 16 ph) | ✅ Completed |
-| **PFA 1.6:** Security & Compliance Framework (Mistral Agents, 20 ph) | ✅ Completed |
+| **PFA 1.1:** Expense Tracking System (Mistral Agents, 20 ph) |  Completed |
+| **PFA 1.2:** Smart Budgeting Suggestions (Mistral Agents, 22 ph) |  Completed |
+| **PFA 1.3:** Savings Goal Planning (Mistral Agents, 18 ph) | Completed |
+| **PFA 1.4:** Investment Insight Engine (Mistral Agents, 20 ph) |  Completed |
+| **PFA 1.5:** Financial Report Generator (Mistral Agents, 16 ph) |  Completed |
+| **PFA 1.6:** Security & Compliance Framework (Mistral Agents, 20 ph) |  Completed |
 
 ---
 
-## 🧠 Agents
+##  Agents
 
 | Agent Name | Role / Responsibility |
 |------------|------------------------|
@@ -62,7 +62,7 @@ The system uses **Mistral AI** to analyze user financial behavior and recommend 
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The AI-Based Personal Finance Assistant is a modular multi-agent system that uses **Mistral AI** for financial forecasting and recommendations. It includes:
 
@@ -72,21 +72,47 @@ The AI-Based Personal Finance Assistant is a modular multi-agent system that use
 
 ---
 
-## 🔄 Workflow
+## Workflow Overview
 
-```plaintext
-[ User Input (Expenses / Goals) ]
-               ↓
-   [ Expense Tracking Agent ]
-               ↓
-     [ Categorized Data ] 
-               ↓
-        [ Budgeting Agent ]
-               ↓
-     [ Savings Plan Agent ]
-               ↓
- [ Investment Insight Agent ]
-               ↓
- [ Data Visualization Agent ]
-               ↓
-[ Personalized Finance Dashboard ]
+| Step | Component                   | Description                                              |
+|------|-----------------------------|----------------------------------------------------------|
+| 1    | User Input                  | User enters expenses, goals, and preferences             |
+| 2    | Expense Tracking Agent      | Categorizes and logs financial activities                |
+| 3    | Budgeting Agent             | Suggests smart budgets based on historical trends        |
+| 4    | Savings Plan Agent          | Helps create and monitor savings goals                   |
+| 5    | Investment Insight Agent    | Recommends investments aligned with risk profiles        |
+| 6    | Data Visualization Agent    | Generates charts, graphs, and performance metrics        |
+| 7    | Personalized Finance Dashboard | Displays insights, recommendations, and financial overview |
+
+## 💻 User Interface
+
+| Tab Name            | Functionality                                                                 |
+|---------------------|-------------------------------------------------------------------------------|
+| **Dashboard**       | Summary of total expenses, budgets, and net savings                           |
+| **Budget Planner**  | Budget creation, goal setting, alerts, and adjustment recommendations         |
+| **Investment Insights** | Risk profile input, real-time suggestions, and financial portfolio recommendations |
+| **Reports**         | Monthly/yearly financial reports with downloadable graphs and PDF support     |
+
+---
+
+## Project Output 
+
+
+
+---
+
+##  Project Status
+
+- All core functionalities have been implemented and tested successfully.  
+-  Security and compliance features meet industry standards.  
+-  Real-time visual analytics and personalized financial insights are operational.
+
+---
+
+##  Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Python, Flask  
+- **AI/ML:** Mistral AI  
+- **Security:** JWT, MFA, GDPR, CCPA  
+- **Visualization:** Chart.js, D3.js
