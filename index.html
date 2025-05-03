@@ -1,1 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI-Based Personal Finance Assistant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      padding-top: 40px;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .container {
+      max-width: 900px;
+    }
+    h1, h2, h3 {
+      color: #1a1a1a;
+      margin-top: 40px;
+    }
+    pre {
+      background-color: #eee;
+      padding: 1rem;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    table {
+      margin-top: 20px;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>AI-Based Personal Finance Assistant</h1>
+    <p>This project is a web-based AI-powered platform designed to help users manage their personal finances more efficiently. It allows users to track expenses, generate budgets, set savings goals, and receive personalized investment insights.</p>
+    <p>The system uses <strong>Mistral AI</strong> to analyze user financial behavior and recommend budgeting, savings, and investment strategies. It includes a secure multi-agent architecture and offers rich data visualizations and regulatory-compliant data protection.</p>
+
+    <h2>My Contributions</h2>
+    <ul>
+      <li>Developed agent-based architecture for budgeting, savings, investments, and expense tracking.</li>
+      <li>Integrated <strong>Mistral AI</strong> to generate smart financial insights.</li>
+      <li>Designed the workflow for automated expense categorization and anomaly detection.</li>
+      <li>Implemented financial report generation with interactive visualizations.</li>
+      <li>Ensured full-stack security compliance (<strong>GDPR</strong>, <strong>CCPA</strong>) with data encryption and <strong>MFA</strong>.</li>
+      <li>Tested agent interactions, data flows, and user experience across devices.</li>
+    </ul>
+
+    <h2>Sprint Objective Summary</h2>
+    <table class="table table-bordered">
+      <thead><tr><th>Sprint</th><th>Objective Summary</th></tr></thead>
+      <tbody>
+        <tr><td>Sprint 1</td><td>Set up foundational modules for expense tracking and agent definitions</td></tr>
+        <tr><td>Sprint 2</td><td>Build intelligent budgeting and savings recommendation system</td></tr>
+        <tr><td>Sprint 3</td><td>Add investment insights and integrate real-time financial data</td></tr>
+        <tr><td>Sprint 4</td><td>Complete UI integration, reporting features, and enforce security compliance</td></tr>
+      </tbody>
+    </table>
+
+    <h2>User Story: PFA1 - Smart Financial Assistant</h2>
+    <blockquote>
+      As a user, I want an AI-based personal finance assistant that helps me track expenses, suggest budgeting strategies, and provide investment insights, so that I can better manage my finances and achieve my financial goals.
+    </blockquote>
+
+    <h2>Tasks and Status</h2>
+    <table class="table table-striped">
+      <thead><tr><th>Task</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td><strong>PFA 1.1:</strong> Expense Tracking System (Mistral Agents, 20 ph)</td><td>Completed</td></tr>
+        <tr><td><strong>PFA 1.2:</strong> Smart Budgeting Suggestions (Mistral Agents, 22 ph)</td><td>Completed</td></tr>
+        <tr><td><strong>PFA 1.3:</strong> Savings Goal Planning (Mistral Agents, 18 ph)</td><td>Completed</td></tr>
+        <tr><td><strong>PFA 1.4:</strong> Investment Insight Engine (Mistral Agents, 20 ph)</td><td>Completed</td></tr>
+        <tr><td><strong>PFA 1.5:</strong> Financial Report Generator (Mistral Agents, 16 ph)</td><td>Completed</td></tr>
+        <tr><td><strong>PFA 1.6:</strong> Security & Compliance Framework (Mistral Agents, 20 ph)</td><td>Completed</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Agents</h2>
+    <table class="table table-hover">
+      <thead><tr><th>Agent Name</th><th>Role / Responsibility</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Expense Tracking Agent</strong></td><td>Captures and categorizes expenses from user input and receipts</td></tr>
+        <tr><td><strong>Budgeting Agent</strong></td><td>Analyzes historical spending and recommends budgeting strategies</td></tr>
+        <tr><td><strong>Savings Plan Agent</strong></td><td>Helps users set savings goals and recommends achievable plans</td></tr>
+        <tr><td><strong>Investment Insight Agent</strong></td><td>Provides investment suggestions tailored to user risk profiles</td></tr>
+        <tr><td><strong>Data Visualization Agent</strong></td><td>Creates interactive visual charts and simulations for users</td></tr>
+        <tr><td><strong>Data Security Agent</strong></td><td>Ensures encrypted storage, MFA, and compliance with GDPR/CCPA</td></tr>
+      </tbody>
+    </table>
+
+    <h2>System Architecture</h2>
+    <p>The AI-Based Personal Finance Assistant is a modular multi-agent system that uses <strong>Mistral AI</strong> for financial forecasting and recommendations. It includes:</p>
+    <ul>
+      <li>A secure, scalable backend powered by agent collaboration</li>
+      <li>A user-friendly web UI for personal finance tracking</li>
+      <li>Data encryption, MFA, and compliance enforcement mechanisms</li>
+    </ul>
+
+    <h2>Workflow Overview</h2>
+    <table class="table table-bordered">
+      <thead><tr><th>Step</th><th>Component</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>User Input</td><td>User enters expenses, goals, and preferences</td></tr>
+        <tr><td>2</td><td>Expense Tracking Agent</td><td>Categorizes and logs financial activities</td></tr>
+        <tr><td>3</td><td>Budgeting Agent</td><td>Suggests smart budgets based on historical trends</td></tr>
+        <tr><td>4</td><td>Savings Plan Agent</td><td>Helps create and monitor savings goals</td></tr>
+        <tr><td>5</td><td>Investment Insight Agent</td><td>Recommends investments aligned with risk profiles</td></tr>
+        <tr><td>6</td><td>Data Visualization Agent</td><td>Generates charts, graphs, and performance metrics</td></tr>
+        <tr><td>7</td><td>Personalized Finance Dashboard</td><td>Displays insights, recommendations, and financial overview</td></tr>
+      </tbody>
+    </table>
+
+    <h2>💻 User Interface</h2>
+    <table class="table table-striped">
+      <thead><tr><th>Tab Name</th><th>Functionality</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Dashboard</strong></td><td>Summary of total expenses, budgets, and net savings</td></tr>
+        <tr><td><strong>Budget Planner</strong></td><td>Budget creation, goal setting, alerts, and adjustment recommendations</td></tr>
+        <tr><td><strong>Investment Insights</strong></td><td>Risk profile input, real-time suggestions, and financial portfolio recommendations</td></tr>
+        <tr><td><strong>Reports</strong></td><td>Monthly/yearly financial reports with downloadable graphs and PDF support</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Project Status</h2>
+    <ul>
+      <li>All core functionalities have been implemented and tested successfully.</li>
+      <li>Security and compliance features meet industry standards.</li>
+      <li>Real-time visual analytics and personalized financial insights are operational.</li>
+    </ul>
+
+    <h2>Tech Stack</h2>
+    <ul>
+      <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+      <li><strong>Backend:</strong> Python, Flask</li>
+      <li><strong>AI/ML:</strong> Mistral AI</li>
+      <li><strong>Security:</strong> JWT, MFA, GDPR, CCPA</li>
+      <li><strong>Visualization:</strong> Chart.js, D3.js</li>
+    </ul>
+
+    <div class="footer">© 2025 Akhil Dronadula | Personal Finance Assistant</div>
+  </div>
+</body>
+</html>
 
